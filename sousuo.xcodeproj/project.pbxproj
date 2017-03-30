@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20E4D3C81E8BBD9700304465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E4D3C71E8BBD9700304465 /* AppDelegate.swift */; };
+		20E4D3CA1E8BBD9700304465 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E4D3C91E8BBD9700304465 /* ViewController.swift */; };
+		20E4D3CD1E8BBD9800304465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E4D3CB1E8BBD9800304465 /* Main.storyboard */; };
+		20E4D3CF1E8BBD9800304465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E4D3CE1E8BBD9800304465 /* Assets.xcassets */; };
+		20E4D3D21E8BBD9800304465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E4D3D01E8BBD9800304465 /* LaunchScreen.storyboard */; };
+		20E4D3DD1E8BBD9800304465 /* sousuoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E4D3DC1E8BBD9800304465 /* sousuoTests.swift */; };
+		20E4D3E81E8BBD9800304465 /* sousuoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E4D3E71E8BBD9800304465 /* sousuoUITests.swift */; };
+		20E4D3F61E8BBF3A00304465 /* heros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20E4D3F51E8BBF3A00304465 /* heros.plist */; };
+		20E4D3F91E8BBF7C00304465 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E4D3F81E8BBF7C00304465 /* Hero.swift */; };
+		20E4D3FB1E8BBFFD00304465 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E4D3FA1E8BBFFD00304465 /* SearchService.swift */; };
+		20E4D3FD1E8BC45900304465 /* ContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E4D3FC1E8BC45900304465 /* ContainerViewModel.swift */; };
+		20E4D3FF1E8BC62300304465 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E4D3FE1E8BC62300304465 /* ContainerViewController.swift */; };
+		20E4D4011E8BCB1400304465 /* ContainerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E4D4001E8BCB1400304465 /* ContainerViewController.storyboard */; };
+		B1C9564B78B8A885F04F44C9 /* Pods_sousuo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6B6665B9D42A5018F1DD66 /* Pods_sousuo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20E4D3D91E8BBD9800304465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20E4D3BC1E8BBD9700304465 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20E4D3C31E8BBD9700304465;
+			remoteInfo = sousuo;
+		};
+		20E4D3E41E8BBD9800304465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20E4D3BC1E8BBD9700304465 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20E4D3C31E8BBD9700304465;
+			remoteInfo = sousuo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20E4D3C41E8BBD9700304465 /* sousuo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sousuo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E4D3C71E8BBD9700304465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20E4D3C91E8BBD9700304465 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20E4D3CC1E8BBD9800304465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20E4D3CE1E8BBD9800304465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20E4D3D11E8BBD9800304465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20E4D3D31E8BBD9800304465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E4D3D81E8BBD9800304465 /* sousuoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sousuoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E4D3DC1E8BBD9800304465 /* sousuoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sousuoTests.swift; sourceTree = "<group>"; };
+		20E4D3DE1E8BBD9800304465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E4D3E31E8BBD9800304465 /* sousuoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sousuoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E4D3E71E8BBD9800304465 /* sousuoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sousuoUITests.swift; sourceTree = "<group>"; };
+		20E4D3E91E8BBD9800304465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E4D3F51E8BBF3A00304465 /* heros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = heros.plist; sourceTree = "<group>"; };
+		20E4D3F81E8BBF7C00304465 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		20E4D3FA1E8BBFFD00304465 /* SearchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		20E4D3FC1E8BC45900304465 /* ContainerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewModel.swift; sourceTree = "<group>"; };
+		20E4D3FE1E8BC62300304465 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		20E4D4001E8BCB1400304465 /* ContainerViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ContainerViewController.storyboard; sourceTree = "<group>"; };
+		7C6B6665B9D42A5018F1DD66 /* Pods_sousuo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sousuo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F4250060AD174C79A7E821 /* Pods-sousuo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sousuo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sousuo/Pods-sousuo.debug.xcconfig"; sourceTree = "<group>"; };
+		FB6EF69B4B258382EF06D526 /* Pods-sousuo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sousuo.release.xcconfig"; path = "Pods/Target Support Files/Pods-sousuo/Pods-sousuo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20E4D3C11E8BBD9700304465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C9564B78B8A885F04F44C9 /* Pods_sousuo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E4D3D51E8BBD9800304465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E4D3E01E8BBD9800304465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20E4D3BB1E8BBD9700304465 = {
+			isa = PBXGroup;
+			children = (
+				20E4D3C61E8BBD9700304465 /* sousuo */,
+				20E4D3DB1E8BBD9800304465 /* sousuoTests */,
+				20E4D3E61E8BBD9800304465 /* sousuoUITests */,
+				20E4D3C51E8BBD9700304465 /* Products */,
+				F0F286F13376DCC9065CEFB8 /* Pods */,
+				95FD0F7A83FCD04740011D2B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20E4D3C51E8BBD9700304465 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20E4D3C41E8BBD9700304465 /* sousuo.app */,
+				20E4D3D81E8BBD9800304465 /* sousuoTests.xctest */,
+				20E4D3E31E8BBD9800304465 /* sousuoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20E4D3C61E8BBD9700304465 /* sousuo */ = {
+			isa = PBXGroup;
+			children = (
+				20E4D3F71E8BBF5A00304465 /* other */,
+				20E4D3F51E8BBF3A00304465 /* heros.plist */,
+				20E4D3F81E8BBF7C00304465 /* Hero.swift */,
+				20E4D3FA1E8BBFFD00304465 /* SearchService.swift */,
+				20E4D3FC1E8BC45900304465 /* ContainerViewModel.swift */,
+				20E4D3FE1E8BC62300304465 /* ContainerViewController.swift */,
+				20E4D4001E8BCB1400304465 /* ContainerViewController.storyboard */,
+			);
+			path = sousuo;
+			sourceTree = "<group>";
+		};
+		20E4D3DB1E8BBD9800304465 /* sousuoTests */ = {
+			isa = PBXGroup;
+			children = (
+				20E4D3DC1E8BBD9800304465 /* sousuoTests.swift */,
+				20E4D3DE1E8BBD9800304465 /* Info.plist */,
+			);
+			path = sousuoTests;
+			sourceTree = "<group>";
+		};
+		20E4D3E61E8BBD9800304465 /* sousuoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20E4D3E71E8BBD9800304465 /* sousuoUITests.swift */,
+				20E4D3E91E8BBD9800304465 /* Info.plist */,
+			);
+			path = sousuoUITests;
+			sourceTree = "<group>";
+		};
+		20E4D3F71E8BBF5A00304465 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				20E4D3C71E8BBD9700304465 /* AppDelegate.swift */,
+				20E4D3C91E8BBD9700304465 /* ViewController.swift */,
+				20E4D3CB1E8BBD9800304465 /* Main.storyboard */,
+				20E4D3CE1E8BBD9800304465 /* Assets.xcassets */,
+				20E4D3D01E8BBD9800304465 /* LaunchScreen.storyboard */,
+				20E4D3D31E8BBD9800304465 /* Info.plist */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		95FD0F7A83FCD04740011D2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C6B6665B9D42A5018F1DD66 /* Pods_sousuo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0F286F13376DCC9065CEFB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85F4250060AD174C79A7E821 /* Pods-sousuo.debug.xcconfig */,
+				FB6EF69B4B258382EF06D526 /* Pods-sousuo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20E4D3C31E8BBD9700304465 /* sousuo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E4D3EC1E8BBD9800304465 /* Build configuration list for PBXNativeTarget "sousuo" */;
+			buildPhases = (
+				5B1D2C1A906FB6DCBEBA8449 /* [CP] Check Pods Manifest.lock */,
+				20E4D3C01E8BBD9700304465 /* Sources */,
+				20E4D3C11E8BBD9700304465 /* Frameworks */,
+				20E4D3C21E8BBD9700304465 /* Resources */,
+				C99EAC9F46BACAE82D4546BB /* [CP] Embed Pods Frameworks */,
+				2B4D69259F4D4B20C644EC6F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sousuo;
+			productName = sousuo;
+			productReference = 20E4D3C41E8BBD9700304465 /* sousuo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20E4D3D71E8BBD9800304465 /* sousuoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E4D3EF1E8BBD9800304465 /* Build configuration list for PBXNativeTarget "sousuoTests" */;
+			buildPhases = (
+				20E4D3D41E8BBD9800304465 /* Sources */,
+				20E4D3D51E8BBD9800304465 /* Frameworks */,
+				20E4D3D61E8BBD9800304465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20E4D3DA1E8BBD9800304465 /* PBXTargetDependency */,
+			);
+			name = sousuoTests;
+			productName = sousuoTests;
+			productReference = 20E4D3D81E8BBD9800304465 /* sousuoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20E4D3E21E8BBD9800304465 /* sousuoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E4D3F21E8BBD9800304465 /* Build configuration list for PBXNativeTarget "sousuoUITests" */;
+			buildPhases = (
+				20E4D3DF1E8BBD9800304465 /* Sources */,
+				20E4D3E01E8BBD9800304465 /* Frameworks */,
+				20E4D3E11E8BBD9800304465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20E4D3E51E8BBD9800304465 /* PBXTargetDependency */,
+			);
+			name = sousuoUITests;
+			productName = sousuoUITests;
+			productReference = 20E4D3E31E8BBD9800304465 /* sousuoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20E4D3BC1E8BBD9700304465 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LieLvWang;
+				TargetAttributes = {
+					20E4D3C31E8BBD9700304465 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V29PA8GQU3;
+						ProvisioningStyle = Automatic;
+					};
+					20E4D3D71E8BBD9800304465 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V29PA8GQU3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20E4D3C31E8BBD9700304465;
+					};
+					20E4D3E21E8BBD9800304465 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V29PA8GQU3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20E4D3C31E8BBD9700304465;
+					};
+				};
+			};
+			buildConfigurationList = 20E4D3BF1E8BBD9700304465 /* Build configuration list for PBXProject "sousuo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20E4D3BB1E8BBD9700304465;
+			productRefGroup = 20E4D3C51E8BBD9700304465 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20E4D3C31E8BBD9700304465 /* sousuo */,
+				20E4D3D71E8BBD9800304465 /* sousuoTests */,
+				20E4D3E21E8BBD9800304465 /* sousuoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20E4D3C21E8BBD9700304465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E4D3D21E8BBD9800304465 /* LaunchScreen.storyboard in Resources */,
+				20E4D3CF1E8BBD9800304465 /* Assets.xcassets in Resources */,
+				20E4D4011E8BCB1400304465 /* ContainerViewController.storyboard in Resources */,
+				20E4D3F61E8BBF3A00304465 /* heros.plist in Resources */,
+				20E4D3CD1E8BBD9800304465 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E4D3D61E8BBD9800304465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E4D3E11E8BBD9800304465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B4D69259F4D4B20C644EC6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sousuo/Pods-sousuo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B1D2C1A906FB6DCBEBA8449 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C99EAC9F46BACAE82D4546BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sousuo/Pods-sousuo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20E4D3C01E8BBD9700304465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E4D3CA1E8BBD9700304465 /* ViewController.swift in Sources */,
+				20E4D3FB1E8BBFFD00304465 /* SearchService.swift in Sources */,
+				20E4D3C81E8BBD9700304465 /* AppDelegate.swift in Sources */,
+				20E4D3FD1E8BC45900304465 /* ContainerViewModel.swift in Sources */,
+				20E4D3FF1E8BC62300304465 /* ContainerViewController.swift in Sources */,
+				20E4D3F91E8BBF7C00304465 /* Hero.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E4D3D41E8BBD9800304465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E4D3DD1E8BBD9800304465 /* sousuoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E4D3DF1E8BBD9800304465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E4D3E81E8BBD9800304465 /* sousuoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20E4D3DA1E8BBD9800304465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20E4D3C31E8BBD9700304465 /* sousuo */;
+			targetProxy = 20E4D3D91E8BBD9800304465 /* PBXContainerItemProxy */;
+		};
+		20E4D3E51E8BBD9800304465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20E4D3C31E8BBD9700304465 /* sousuo */;
+			targetProxy = 20E4D3E41E8BBD9800304465 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20E4D3CB1E8BBD9800304465 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20E4D3CC1E8BBD9800304465 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20E4D3D01E8BBD9800304465 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20E4D3D11E8BBD9800304465 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20E4D3EA1E8BBD9800304465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20E4D3EB1E8BBD9800304465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20E4D3ED1E8BBD9800304465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F4250060AD174C79A7E821 /* Pods-sousuo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V29PA8GQU3;
+				INFOPLIST_FILE = sousuo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lielvwang1112ef.sousuo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		20E4D3EE1E8BBD9800304465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6EF69B4B258382EF06D526 /* Pods-sousuo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V29PA8GQU3;
+				INFOPLIST_FILE = sousuo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lielvwang1112ef.sousuo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		20E4D3F01E8BBD9800304465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V29PA8GQU3;
+				INFOPLIST_FILE = sousuoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lielvwang1112ef.sousuoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sousuo.app/sousuo";
+			};
+			name = Debug;
+		};
+		20E4D3F11E8BBD9800304465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V29PA8GQU3;
+				INFOPLIST_FILE = sousuoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lielvwang1112ef.sousuoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sousuo.app/sousuo";
+			};
+			name = Release;
+		};
+		20E4D3F31E8BBD9800304465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V29PA8GQU3;
+				INFOPLIST_FILE = sousuoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lielvwang1112ef.sousuoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = sousuo;
+			};
+			name = Debug;
+		};
+		20E4D3F41E8BBD9800304465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V29PA8GQU3;
+				INFOPLIST_FILE = sousuoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lielvwang1112ef.sousuoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = sousuo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20E4D3BF1E8BBD9700304465 /* Build configuration list for PBXProject "sousuo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E4D3EA1E8BBD9800304465 /* Debug */,
+				20E4D3EB1E8BBD9800304465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E4D3EC1E8BBD9800304465 /* Build configuration list for PBXNativeTarget "sousuo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E4D3ED1E8BBD9800304465 /* Debug */,
+				20E4D3EE1E8BBD9800304465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E4D3EF1E8BBD9800304465 /* Build configuration list for PBXNativeTarget "sousuoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E4D3F01E8BBD9800304465 /* Debug */,
+				20E4D3F11E8BBD9800304465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E4D3F21E8BBD9800304465 /* Build configuration list for PBXNativeTarget "sousuoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E4D3F31E8BBD9800304465 /* Debug */,
+				20E4D3F41E8BBD9800304465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20E4D3BC1E8BBD9700304465 /* Project object */;
+}
